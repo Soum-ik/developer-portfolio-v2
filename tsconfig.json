@@ -1,0 +1,66 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": "./",
+    "paths": {
+      "@public/*": [
+        "public/*"
+      ],
+      "@components/*": [
+        "src/common/components/*"
+      ],
+      "@widgets/*": [
+        "src/common/widgets/*"
+      ],
+      "@modules/*": [
+        "src/modules/*"
+      ],
+      "@types/*": [
+        "src/shared/@types/*"
+      ],
+      "@utils/*": [
+        "src/shared/utils/*"
+      ],
+      "@redux/*": [
+        "src/shared/redux/*"
+      ],
+      "@hooks/*": [
+        "src/shared/hooks/*"
+      ],
+      "@config/*": [
+        "src/shared/config/*"
+      ]
+    },  
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+, "src/modules/Home/sections/About/partials/Left.jsx", "src/modules/Home/sections/About/partials/Right.jsx", "src/modules/Home/sections/About/index.jsx", "src/common/widgets/Footer/Footer.jsx", "src/common/widgets/Footer/index.jsx", "src/modules/Home/config/constanst.jsx", "src/modules/Home/Home.jsx", "src/modules/Home/index.jsx", "src/modules/Home/sections/About/About.jsx", "src/modules/Home/sections/Worked/index.jsx", "src/modules/Home/sections/Worked/Worked.jsx", "src/modules/Home/sections/Worked/partials/Content.jsx", "src/modules/Home/sections/Worked/partials/Pager.jsx", "src/app/layout.jsx", "src/app/page.jsx", "src/common/widgets/Socials/config/constans.jsx", "src/modules/Home/sections/Worked/config/constants.jsx", "src/modules/Home/sections/Projects/index.js", "src/modules/Home/sections/Projects/Projects.jsx", "src/common/widgets/Socials/index.js", "src/common/widgets/Socials/Socials.jsx", "src/modules/Home/sections/GetInTouch/GetInTouch.jsx", "src/modules/Home/sections/GetInTouch/index.js", "src/modules/Home/sections/Hero/partials/Left.jsx", "src/modules/Home/sections/Hero/partials/Right.jsx", "src/modules/Home/sections/Hero/Hero.jsx", "src/modules/Home/sections/Hero/index.js", "src/shared/config/constants.js", "src/shared/config/motion.js", "src/common/components/meta/Meta.jsx", "src/common/components/Glassify/Glassify.jsx", "src/common/components/Glassify/index.js", "src/common/components/cards/Project/Featured.jsx", "src/common/components/cards/Project/ProjectCard.jsx", "src/common/components/Button/index.js", "src/common/components/Button/Button.jsx", "src/common/widgets/Header/Header.jsx", "src/common/widgets/Header/index.js", "src/common/widgets/Mail/Mail.jsx", "src/common/widgets/Mail/index.js", "src/common/components/motion/AnimatedTextCherecter.jsx", "src/common/components/motion/AnimatedTextWord.jsx", "src/common/components/VideoIframe/index.js", "src/common/components/VideoIframe/VideoIframe.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
