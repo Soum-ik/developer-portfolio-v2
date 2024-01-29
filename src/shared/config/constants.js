@@ -12,9 +12,9 @@ export const projects = [
     title: "Portfolio website",
     description:
       "Personal Website V2 Second iteration of my personal website. Designed and developed with a conscious effort to avoid Personal Website V1 Second iteration of my personal website. and Also I add Blog section and saleing system",
-    tech: ["Next js 13", "Tailwind CSS", "Express js", "MongoDB"],
+    tech: ["Next js 13", "Tailwind CSS", "MUI" ],
     code: "https://github.com/Soum-ik/developer-portfolio-v2",
-    live: "https://raihanhosen.com",
+    live: "https://stack-soumik.vercel.app/",
     thumnail: "portfolio.png",
     featured: true,
   },
