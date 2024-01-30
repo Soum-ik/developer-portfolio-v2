@@ -76,12 +76,12 @@ export const projects = [
     code: "https://github.com/Soum-ik/soumik-cuisine-res"
   }, 
   {
-    title: "Morder UI",
+    title: "Quran Application",
     description:
-      "This is a startup web agency and I'm an intern working as an associate software engineer.",
-    tech: ["React js", "tailwind css", ],
-    live: "https://morden-ui.vercel.app/",
-    thumnail: "ops_inovation.png",
-    code: "https://github.com/Soum-ik/MordenUI"
+      "This is a Quran application that uses RESTful API and Next.js. Once clicked, it will start playing.",
+    tech: ["Next js", "tailwind css" ],
+    live: "https://quranapitracking.vercel.app//",
+    thumnail: "test.png",
+    code: "https://github.com/Soum-ik/Task_Api_Testing"
   },
 ];
