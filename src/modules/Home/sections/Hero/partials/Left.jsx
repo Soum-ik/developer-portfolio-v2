@@ -38,8 +38,9 @@ const Left = () => {
             </div>
         </div>
 
-        <motion.div variants={fadeUpSpring}  initial="hidden" animate="visible" className='w-fit mx-auto lg:ml-0' >
+        <motion.div variants={fadeUpSpring}  initial="hidden" animate="visible" className='w-fit mx-auto lg:ml-0 space-x-3' >
            <a href='#works' ><Button outlined > Check out my projects </Button></a>
+           <a href='#contact' ><Button outlined > Hire Me </Button></a>
         </motion.div>
     
     </div>
